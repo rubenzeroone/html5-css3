@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia em HTML</title>
+</head>
+<body>
+   <h1>imagem dinâmica</h1> 
+   <p>tente abrir esse site em varios dispositivo diferentes ou simlesmente aumente e diminua o tamanho no seu navegador.</p>
+   <picture> <!--e importante colocar o px no max-widht:png-->
+    <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px) "srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem flexivel">
+   </picture>
+   <h1>reproduzindo audio </h1>
+   <p>vamos reproduzir audio em a html:5</p>
+   <audio src="midias/A Walk Into Space - Topher Mohr and Alex Elena.mp3"controls autoplay></audio><!-- essa primeira forma decolocar audio foi a maneira mais simples-->
+   <p>esta é uma forma mais dificil de colocar, mas é mais eficiente</p>
+ <audio preload="auto"autoplay controls loop>
+<source src="midias/Ticklish - Quincas Moreira.mp3" type="audio/mpeg"> 
+ <source src="midias/Ticklish - Quincas Moreira.ogg" type="audio/ogg">
+<source src="midias/Ticklish - Quincas Moreira.wav" type="audio/wav"> 
+<p>não carregou o audio:c <a href="midias/Ticklish - Quincas Moreira.mp3"download="musica/mp3" type="audio/mpeg">link da música</a> </p>
+ </audio>
+ <p>caso não fucionasse iria aparecer um link para download</p>
+</body>
+</html>  

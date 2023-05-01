@@ -1,0 +1,37 @@
+@charset "utf 8";
+body{
+    background-color:#963254 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* #id
+.class */
+h1{
+    color: #ff9be6;
+}
+#principal {
+    color:#ff63dd;
+    text-align: center;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 2.3em;s
+    
+}
+.subtitulo{
+    background-color: #030103;
+}
+h2{
+    font-family: serif;
+    color: #250125;
+}
+.basic{
+    color: #23102b;
+}
+.intermediry{
+    color: #23102b;
+}
+.advanced{
+    color: #351533;
+}
+.destaque{
+    background-color: #f2fd5396;
+}
