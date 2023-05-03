@@ -109,7 +109,7 @@ main{
     padding: 20px;
     margin: auto;
     margin-bottom: 30px;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 1000px;
     background-color: white;
     box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.274);
@@ -134,7 +134,7 @@ article > img{
     display: block;
 }
 article > img.pq{
-    width: 350px;
+    width: 200px;
     margin: auto;
 }
 aside{
